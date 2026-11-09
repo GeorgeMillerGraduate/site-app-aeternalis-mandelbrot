@@ -1,0 +1,25 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+ <modelVersion>4.0.0</modelVersion><groupId>com.jenga</groupId><artifactId>aeternalis-fractal-studio</artifactId><version>0.12.0</version><name>Aeternalis Fractal Studio</name>
+ <properties><maven.compiler.release>21</maven.compiler.release><project.build.sourceEncoding>UTF-8</project.build.sourceEncoding><native.platform>windows-x86_64</native.platform><javafx.version>21.0.5</javafx.version></properties>
+ <dependencies>
+ <dependency><groupId>org.bytedeco</groupId><artifactId>ffmpeg</artifactId><version>7.1-1.5.11</version></dependency>
+ <dependency><groupId>org.bytedeco</groupId><artifactId>ffmpeg</artifactId><version>7.1-1.5.11</version><classifier>${native.platform}-gpl</classifier><scope>runtime</scope></dependency>
+ <dependency><groupId>org.bytedeco</groupId><artifactId>javacpp</artifactId><version>1.5.11</version><classifier>${native.platform}</classifier><scope>runtime</scope></dependency>
+ <dependency><groupId>org.jocl</groupId><artifactId>jocl</artifactId><version>2.0.5</version></dependency>
+ <dependency><groupId>com.google.code.gson</groupId><artifactId>gson</artifactId><version>2.11.0</version></dependency>
+ <dependency><groupId>org.openjfx</groupId><artifactId>javafx-controls</artifactId><version>${javafx.version}</version></dependency>
+ <dependency><groupId>org.openjfx</groupId><artifactId>javafx-swing</artifactId><version>${javafx.version}</version></dependency>
+ <dependency><groupId>org.junit.jupiter</groupId><artifactId>junit-jupiter</artifactId><version>5.11.3</version><scope>test</scope></dependency>
+ </dependencies>
+ <build><plugins>
+ <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-compiler-plugin</artifactId><version>3.13.0</version></plugin>
+ <plugin><groupId>org.apache.maven.plugins</groupId><artifactId>maven-surefire-plugin</artifactId><version>3.5.2</version></plugin>
+ <plugin><groupId>org.openjfx</groupId><artifactId>javafx-maven-plugin</artifactId><version>0.0.8</version><configuration><mainClass>com.jenga.aeternalis.Main</mainClass></configuration></plugin>
+ </plugins></build>
+ <profiles>
+ <profile><id>linux</id><activation><os><name>Linux</name></os></activation><properties><native.platform>linux-x86_64</native.platform></properties></profile>
+ <profile><id>linux-arm64</id><activation><os><name>Linux</name><arch>aarch64</arch></os></activation><properties><native.platform>linux-arm64</native.platform></properties></profile>
+ <profile><id>mac-intel</id><activation><os><family>mac</family><arch>x86_64</arch></os></activation><properties><native.platform>macosx-x86_64</native.platform></properties></profile>
+ <profile><id>mac-arm</id><activation><os><family>mac</family><arch>aarch64</arch></os></activation><properties><native.platform>macosx-arm64</native.platform></properties></profile>
+ </profiles>
+</project>

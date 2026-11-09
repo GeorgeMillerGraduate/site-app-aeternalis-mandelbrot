@@ -1,0 +1,24 @@
+{
+  "java": "21.0.13",
+  "os": "Linux amd64",
+  "logicalProcessors": 9,
+  "maximumHeapMiB": 2048,
+  "gpu": {
+    "name": "No OpenCL GPU configured",
+    "vendor": "Unknown",
+    "api": "No OpenCL ICD registered",
+    "fp64": false,
+    "globalMemory": 0,
+    "maxAllocation": 0,
+    "computeUnits": 0,
+    "validated": false,
+    "faster": false,
+    "compilationMillis": 0.0,
+    "cpuMillis": 0.0,
+    "gpuMillis": 0.0,
+    "detail": "A loader library alone is not a usable compute device. CPU retained. Vulkan compute is not implemented. Advanced direct-loader probing can be enabled with aeternalis.forceOpenCLProbe."
+  },
+  "warmupRenders": 1,
+  "measuredRendersPerMedian": 3,
+  "previewPasses": false
+}

@@ -1,0 +1,13 @@
+scenario,width,height,iterations,grid,workers,mode,precision,median_ms,pixels_per_second,gpu_tiles,fallbacks,status
+Mandelbrot full,960,640,800,1,1,CPU,DOUBLE,117.5256,5227796,0,0,measured
+Seahorse detail,640,480,1400,1,1,CPU,DOUBLE,315.3459,974168,0,0,measured
+Julia 2x2,640,480,1000,2,1,CPU,DOUBLE,294.5050,1043106,0,0,measured
+Deep 1e-30 perturbation,96,64,300,1,1,CPU,QUAD_DOUBLE,63.9661,96051,0,0,measured
+Mandelbrot full,960,640,800,1,4,CPU,DOUBLE,23.6129,26019724,0,0,measured
+Seahorse detail,640,480,1400,1,4,CPU,DOUBLE,90.1949,3405957,0,0,measured
+Julia 2x2,640,480,1000,2,4,CPU,DOUBLE,71.9330,4270642,0,0,measured
+Deep 1e-30 perturbation,96,64,300,1,4,CPU,QUAD_DOUBLE,35.1673,174708,0,0,measured
+Mandelbrot full,960,640,800,1,9,CPU,DOUBLE,16.4532,37342387,0,0,measured
+Seahorse detail,640,480,1400,1,9,CPU,DOUBLE,53.8153,5708414,0,0,measured
+Julia 2x2,640,480,1000,2,9,CPU,DOUBLE,37.2896,8238221,0,0,measured
+Deep 1e-30 perturbation,96,64,300,1,9,CPU,QUAD_DOUBLE,31.7997,193209,0,0,measured

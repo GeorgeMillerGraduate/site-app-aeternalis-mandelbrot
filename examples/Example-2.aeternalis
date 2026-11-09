@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "0.4.0",
+  "document": {
+    "layers": [
+      {
+        "id": "a13d5fe8-e5d9-4c4c-8500-d613ad8b25bd",
+        "name": "Three roots",
+        "visible": true,
+        "opacity": 1.0,
+        "blend": "NORMAL",
+        "viewport": {
+          "real": 0.0,
+          "imaginary": 0.0,
+          "span": 3.2
+        },
+        "formula": {
+          "family": "NEWTON",
+          "power": 3,
+          "juliaReal": 0.0,
+          "juliaImaginary": 0.0
+        },
+        "calculation": {
+          "limit": 600,
+          "grid": 2,
+          "order": "RADIAL",
+          "periodicity": true,
+          "bailoutSquared": 10.0,
+          "previews": true
+        },
+        "colours": {
+          "gradient": {
+            "stops": [
+              {
+                "position": 0.0,
+                "rgb": 2154
+              },
+              {
+                "position": 0.25,
+                "rgb": 3640282
+              },
+              {
+                "position": 0.5,
+                "rgb": 16186337
+              },
+              {
+                "position": 0.75,
+                "rgb": 16621568
+              },
+              {
+                "position": 1.0,
+                "rgb": 2154
+              }
+            ],
+            "mode": "CATMULL_ROM"
+          },
+          "transfer": "LINEAR",
+          "density": 1.0,
+          "scale": 64.0,
+          "offset": 0.0,
+          "power": 0.5,
+          "repeat": true,
+          "reverse": false,
+          "histogram": false,
+          "interior": 527638,
+          "transparentInterior": false
+        }
+      }
+    ],
+    "active": "a13d5fe8-e5d9-4c4c-8500-d613ad8b25bd"
+  }
+}

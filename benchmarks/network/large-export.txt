@@ -1,0 +1,1 @@
+4096 × 4096 actual distributed PNG, 128 MiB max JVM heap, 4.402 seconds, 74366 output bytes, 82 remote tiles. Header and a decoded pixel verified; all image data passed through streaming zlib/CRC output.

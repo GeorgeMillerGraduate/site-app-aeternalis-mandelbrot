@@ -1,0 +1,41 @@
+
+.button,.toggle-button { -fx-background-color: #f9f3e8; -fx-text-fill: -aet-ivory; -fx-border-color: #d0bda2; -fx-border-width: 1; -fx-border-radius: 3; -fx-background-radius: 3; -fx-padding: 6 9; -fx-cursor: hand; -fx-graphic-text-gap: 7; }
+.button:hover,.toggle-button:hover { -fx-background-color: #ece1ce; -fx-border-color: -aet-gold; }
+.button:pressed,.toggle-button:pressed { -fx-background-color: #e3d3b9; }
+.button:focused,.toggle-button:focused { -fx-border-color: -aet-gold-light; -fx-effect: dropshadow(gaussian,#a9512632,4,0,0,0); }
+.button:disabled,.toggle-button:disabled { -fx-opacity: .48; }
+.toggle-button:selected { -fx-background-color: #dbe8e4; -fx-border-color: -aet-gold; -fx-text-fill: #123743; }
+.primary { -fx-background-color: #146b70; -fx-border-color: #10515a; -fx-text-fill: #fff7e6; }
+.primary:hover { -fx-background-color: #1b7e80; -fx-border-color: -aet-gold-light; }
+.cancel-button { -fx-border-color: #bd896d; }
+.text-field { -fx-background-color: -aet-field; -fx-text-fill: -aet-ivory; -fx-prompt-text-fill: #8d8476; -fx-border-color: #ccb99f; -fx-border-width: 1; -fx-border-radius: 3; -fx-background-radius: 3; -fx-padding: 7 8; -fx-highlight-fill: #c9e0dd; }
+.numeric-field,.spinner .text-field { -fx-font-family: "Monospaced"; -fx-font-size: 12px; }
+.text-field:focused { -fx-border-color: -aet-gold; -fx-background-color: #ffffff; }
+.text-field:invalid { -fx-border-color: -aet-error; -fx-background-color: #fae9e1; }
+.text-field:disabled { -fx-opacity: .55; }
+.spinner { -fx-background-color: transparent; -fx-padding: 0; }
+.spinner .increment-arrow-button,.spinner .decrement-arrow-button { -fx-background-color: #e9ddca; -fx-border-color: #ccb99f; }
+.spinner .increment-arrow,.spinner .decrement-arrow { -fx-background-color: -aet-gold-light; }
+.combo-box-base,.choice-box,.color-picker { -fx-background-color: #f9f3e8; -fx-border-color: #ccb99f; -fx-border-width: 1; -fx-border-radius: 3; -fx-background-radius: 3; -fx-padding: 2 3; }
+.combo-box-base:hover,.color-picker:hover { -fx-border-color: -aet-gold; }
+.combo-box-base .list-cell,.choice-box .label,.color-picker .label { -fx-background-color: transparent; -fx-text-fill: -aet-ivory; -fx-padding: 5 6; }
+.combo-box-popup .list-view { -fx-background-color: #fffaf2; -fx-border-color: #b7885b; }
+.combo-box-popup .list-cell { -fx-padding: 7 10; }
+.combo-box-popup .list-cell:selected { -fx-background-color: #d9e7e3; }
+.combo-box .arrow,.choice-box .arrow,.color-picker .arrow { -fx-background-color: -aet-gold-light; }
+.combo-box:disabled,.choice-box:disabled { -fx-opacity: .55; }
+.slider .track { -fx-background-color: #e9ddca; -fx-border-color: #c8b398; -fx-border-radius: 3; -fx-background-radius: 3; -fx-pref-height: 4; }
+.slider .thumb { -fx-background-color: -aet-gold; -fx-background-radius: 7; -fx-border-color: #fff6df; -fx-border-radius: 7; -fx-pref-width: 12; -fx-pref-height: 12; }
+.slider:focused .thumb { -fx-background-color: -aet-gold-light; -fx-effect: dropshadow(gaussian,#a9512644,5,0,0,0); }
+.check-box .box { -fx-background-color: #fffaf2; -fx-border-color: #bca68a; -fx-border-radius: 2; -fx-padding: 3; }
+.check-box:selected .box { -fx-background-color: #146b70; -fx-border-color: -aet-gold; }
+.check-box:selected .mark { -fx-background-color: #fff7e6; }
+.check-box { -fx-text-fill: -aet-ivory; -fx-font-size: 11px; }
+.titled-pane > .title { -fx-background-color: #eee5d5; -fx-border-color: #c49a7055; -fx-border-width: 0 0 1 0; -fx-padding: 9 10; }
+.titled-pane > .title > .text { -fx-fill: -aet-gold-light; }
+.titled-pane > .title > .arrow-button .arrow { -fx-background-color: -aet-gold; }
+.titled-pane > .content { -fx-background-color: #fbf7ef; -fx-border-color: #d9c6ad; -fx-border-width: 0 1 1 1; }
+.parameter-group { -fx-padding: 11; -fx-spacing: 8; }
+.progress-bar .track { -fx-background-color: #e9ddca; -fx-background-radius: 3; -fx-border-color: #b99b73; -fx-border-radius: 3; }
+.progress-bar .bar { -fx-background-color: linear-gradient(to right,#a95126,#d2a66d); -fx-background-radius: 2; -fx-padding: 4 0; }
+.tool-icon { -fx-fill: transparent; -fx-stroke: -aet-gold-light; -fx-stroke-width: 1.4; -fx-stroke-line-cap: round; -fx-stroke-line-join: round; }

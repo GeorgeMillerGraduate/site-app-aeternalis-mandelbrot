@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "0.9.0",
+  "document": {
+    "layers": [
+      {
+        "id": "9cb279a6-657b-4b8e-87a6-e272cf39b9aa",
+        "name": "Newton 5 roots",
+        "visible": true,
+        "opacity": 1.0,
+        "blend": "NORMAL",
+        "viewport": {
+          "real": 0,
+          "imaginary": 0,
+          "span": 3.5
+        },
+        "formula": {
+          "family": "NEWTON",
+          "power": 5,
+          "juliaReal": 0.0,
+          "juliaImaginary": 0.0
+        },
+        "calculation": {
+          "limit": 600,
+          "grid": 2,
+          "order": "RADIAL",
+          "periodicity": true,
+          "bailoutSquared": 10.0,
+          "previews": true
+        },
+        "colours": {
+          "gradient": {
+            "stops": [
+              {
+                "position": 0.0,
+                "rgb": 1445668
+              },
+              {
+                "position": 0.16666666666666666,
+                "rgb": 6039364
+              },
+              {
+                "position": 0.3333333333333333,
+                "rgb": 12408379
+              },
+              {
+                "position": 0.5,
+                "rgb": 16366440
+              },
+              {
+                "position": 0.6666666666666666,
+                "rgb": 16773062
+              },
+              {
+                "position": 0.8333333333333334,
+                "rgb": 6964285
+              },
+              {
+                "position": 1.0,
+                "rgb": 1445668
+              }
+            ],
+            "mode": "CATMULL_ROM"
+          },
+          "transfer": "SQRT",
+          "density": 0.65,
+          "scale": 128.0,
+          "offset": 0.05,
+          "power": 0.5,
+          "repeat": true,
+          "reverse": false,
+          "histogram": false,
+          "interior": 527638,
+          "transparentInterior": false
+        }
+      }
+    ],
+    "active": "9cb279a6-657b-4b8e-87a6-e272cf39b9aa"
+  }
+}

@@ -1,0 +1,17 @@
+Aeternalis 0.12.0 · automated regression results
+2026-11-09 · JDK 21 · Linux
+Tests 92; passed 91; skipped 1 (conditional OpenCL GPU); failed 0; errors 0
+
+com.jenga.aeternalis.ColourQualityTest: tests=10, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.CompetitorFeaturesTest: tests=11, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.CoreTest: tests=8, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.EditorialGalleryTest: tests=6, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.LegacySelectionTest: tests=8, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.NetworkRenderingTest: tests=9, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.NewtonPowersTest: tests=2, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.PrecisionEngineTest: tests=15, failures=0, errors=0, skipped=1
+com.jenga.aeternalis.ProgressivePrecisionTest: tests=3, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.RefinementTest: tests=6, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.RuntimeCollisionTest: tests=3, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.WindowBoundsTest: tests=3, failures=0, errors=0, skipped=0
+com.jenga.aeternalis.ZoomAnimationTest: tests=8, failures=0, errors=0, skipped=0

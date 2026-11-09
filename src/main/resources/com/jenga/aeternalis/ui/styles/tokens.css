@@ -1,0 +1,11 @@
+
+.root {
+ -aet-bg: #f5efe3; -aet-panel: #fbf7ef; -aet-raised: #eee5d5; -aet-field: #fffaf2;
+ -aet-canvas: #082a32; -aet-ivory: #123743; -aet-muted: #716a60; -aet-gold: #a95126;
+ -aet-gold-light: #8f401d; -aet-edge: #d9c6ad; -aet-teal: #126f75; -aet-teal-light: #187d80;
+ -aet-error: #a53124;
+ -fx-base: -aet-panel; -fx-background: -aet-bg; -fx-control-inner-background: -aet-field;
+ -fx-text-base-color: -aet-ivory; -fx-text-background-color: -aet-ivory; -fx-accent: -aet-teal;
+ -fx-focus-color: -aet-gold-light; -fx-faint-focus-color: #a9512622;
+ -fx-font-family: "System"; -fx-font-size: 12px;
+}

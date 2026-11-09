@@ -1,0 +1,20 @@
+
+.dialog-pane { -fx-background-color: -aet-panel; -fx-padding: 14; }
+.dialog-pane > .header-panel { -fx-background-color: #eee2d0; -fx-padding: 12; }
+.dialog-pane > .header-panel .label { -fx-font-family: "Serif"; -fx-font-size: 18px; -fx-text-fill: -aet-gold-light; }
+.dialog-pane .content.label { -fx-text-fill: -aet-ivory; -fx-font-size: 12px; }
+.about-hero { -fx-min-height: 220; -fx-pref-height: 220; -fx-background-image: url("../../assets/editorial-masthead.png"); -fx-background-size: cover; -fx-background-position: center; -fx-padding: 24; -fx-border-color: #a58b57; -fx-border-width: 1; }
+.about-title { -fx-font-family: "Serif"; -fx-font-size: 28px; -fx-text-fill: #793c20; }
+.about-subtitle { -fx-text-fill: #123743; -fx-font-size: 12px; }
+.about-body { -fx-padding: 17 5 3 5; -fx-spacing: 10; }
+
+.opening-splash { -fx-background-color: #f5efe3; -fx-border-color: #a95126; -fx-border-width: 1; }
+.opening-caption { -fx-text-fill: #123743; -fx-font-family: "Serif"; -fx-font-size: 13px; }
+.opening-progress .track { -fx-background-color: #e4d4b9; -fx-border-color: #b98e5d; }
+.opening-progress .bar { -fx-background-color: linear-gradient(to right,#a95126,#176f73); -fx-padding: 3 0; }
+
+/* Timer is drawn over the black strip inside the opening artwork. */
+.opening-splash { -fx-background-color: black; -fx-border-width: 0; }
+.opening-progress { -fx-padding: 0; -fx-background-insets: 0; }
+.opening-progress .track { -fx-background-color: #000000; -fx-border-width: 0; -fx-background-radius: 0; }
+.opening-progress .bar { -fx-background-color: linear-gradient(to right,#ad6a27,#f0cb7b); -fx-background-radius: 0; -fx-background-insets: 0; -fx-padding: 3 0; }

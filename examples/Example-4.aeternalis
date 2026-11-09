@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "0.9.0",
+  "document": {
+    "layers": [
+      {
+        "id": "a200e981-695a-4078-87dc-d07b6b294f2c",
+        "name": "Newton 8 roots",
+        "visible": true,
+        "opacity": 1.0,
+        "blend": "NORMAL",
+        "viewport": {
+          "real": 0,
+          "imaginary": 0,
+          "span": 3.5
+        },
+        "formula": {
+          "family": "NEWTON",
+          "power": 8,
+          "juliaReal": 0.0,
+          "juliaImaginary": 0.0
+        },
+        "calculation": {
+          "limit": 600,
+          "grid": 2,
+          "order": "RADIAL",
+          "periodicity": true,
+          "bailoutSquared": 10.0,
+          "previews": true
+        },
+        "colours": {
+          "gradient": {
+            "stops": [
+              {
+                "position": 0.0,
+                "rgb": 530982
+              },
+              {
+                "position": 0.16666666666666666,
+                "rgb": 1334640
+              },
+              {
+                "position": 0.3333333333333333,
+                "rgb": 5748394
+              },
+              {
+                "position": 0.5,
+                "rgb": 15851434
+              },
+              {
+                "position": 0.6666666666666666,
+                "rgb": 12023609
+              },
+              {
+                "position": 0.8333333333333334,
+                "rgb": 3874869
+              },
+              {
+                "position": 1.0,
+                "rgb": 530982
+              }
+            ],
+            "mode": "CATMULL_ROM"
+          },
+          "transfer": "SQRT",
+          "density": 0.65,
+          "scale": 128.0,
+          "offset": 0.05,
+          "power": 0.5,
+          "repeat": true,
+          "reverse": false,
+          "histogram": false,
+          "interior": 527638,
+          "transparentInterior": false
+        }
+      }
+    ],
+    "active": "a200e981-695a-4078-87dc-d07b6b294f2c"
+  }
+}

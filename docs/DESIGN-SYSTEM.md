@@ -1,0 +1,11 @@
+# Mathematical Observatory design
+
+Central theme files: tokens.css, base.css, controls.css, workspace.css and dialogs.css under ui/styles. Cream paper panels (#f5efe3 / #fbf7ef), dark ink (#123743), copper (#a95126) and teal actions (#146b70) match the supplied Jenga-Code website screenshot. Engraved artwork preserves the Victorian mathematical-instrument identity. System fonts avoid external font requirements. Authored SVGPath toolbar icons scale cleanly; artwork is decorative and never replaces calculated fractal data. Scene/dialog styling is shared, with visible keyboard focus and no animated section transitions.
+
+Scientific numeric fields retain exact decimal text and provide validation, stepping and reset. Inspector sections group Location, Colours, Render, Formula and Performance controls. Palette editing offers stop insertion, duplication, deletion, reversal, loop closing, exact hex/position edits, clipboard import/export and bounded gradient undo/redo; interpolation remains cubic. Navigation, status and inline messages are compact and consistent. Workspace preferences remember validated window/split/tab/focus settings, with safe fallback. Recent-file lists, autosave and floating-window geometry persistence remain future work.
+
+0.8 adds OpeningSplash and AeternalisLauncher. The normal Main entry point shows the supplied portrait illustration at its original aspect ratio, sized within the usable display, with a linear three-second progress bar. This is a timed introduction rather than a claim of measured loading progress. Studio remains directly launchable by automated UI harnesses. Escape exits during the introduction.
+
+## 0.12 editorial layout
+
+Native JavaFX controls remain live and accessible. A 192px illustrated sidebar is shown at widths of 1380px or more and collapses on shorter screens; its decorative image hides below 770px height. The bottom atlas is a horizontally scrollable strip with exact-coordinate tooltips, source/license context menus and keyboard-focusable cards. Focus removes atlas and sidebar. Shared illustration headers do not change the 90%-of-screen/owner bounds enforced by WindowBounds; animation content and all network tabs remain scrollable. Serif display typography uses the Java logical Serif family, allowing platform font substitution without CSS fallback-list inconsistencies.

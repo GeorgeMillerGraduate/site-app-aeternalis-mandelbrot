@@ -1,0 +1,151 @@
+{
+  "schemaVersion": 1,
+  "applicationVersion": "0.4.0",
+  "document": {
+    "layers": [
+      {
+        "id": "9c5a333e-a549-4469-9b55-89b1ee875727",
+        "name": "Copper Mandelbrot",
+        "visible": true,
+        "opacity": 1.0,
+        "blend": "NORMAL",
+        "viewport": {
+          "real": -0.5,
+          "imaginary": 0.0,
+          "span": 3.5
+        },
+        "formula": {
+          "family": "MANDELBROT",
+          "power": 3,
+          "juliaReal": -0.745,
+          "juliaImaginary": 0.186
+        },
+        "calculation": {
+          "limit": 600,
+          "grid": 2,
+          "order": "RADIAL",
+          "periodicity": true,
+          "bailoutSquared": 10.0,
+          "previews": true
+        },
+        "colours": {
+          "gradient": {
+            "stops": [
+              {
+                "position": 0.0,
+                "rgb": 1445668
+              },
+              {
+                "position": 0.16666666666666666,
+                "rgb": 6039364
+              },
+              {
+                "position": 0.3333333333333333,
+                "rgb": 12408379
+              },
+              {
+                "position": 0.5,
+                "rgb": 16366440
+              },
+              {
+                "position": 0.6666666666666666,
+                "rgb": 16773062
+              },
+              {
+                "position": 0.8333333333333334,
+                "rgb": 6964285
+              },
+              {
+                "position": 1.0,
+                "rgb": 1445668
+              }
+            ],
+            "mode": "CATMULL_ROM"
+          },
+          "transfer": "SQRT",
+          "density": 0.65,
+          "scale": 128.0,
+          "offset": 0.05,
+          "power": 0.5,
+          "repeat": true,
+          "reverse": false,
+          "histogram": false,
+          "interior": 527638,
+          "transparentInterior": false
+        }
+      },
+      {
+        "id": "a2e2c9a1-560c-4946-b5b0-d24bb1876dbe",
+        "name": "Julia tracery",
+        "visible": true,
+        "opacity": 0.62,
+        "blend": "SCREEN",
+        "viewport": {
+          "real": 0.0,
+          "imaginary": 0.0,
+          "span": 3.3
+        },
+        "formula": {
+          "family": "JULIA",
+          "power": 3,
+          "juliaReal": -0.8,
+          "juliaImaginary": 0.156
+        },
+        "calculation": {
+          "limit": 600,
+          "grid": 2,
+          "order": "RADIAL",
+          "periodicity": true,
+          "bailoutSquared": 10.0,
+          "previews": true
+        },
+        "colours": {
+          "gradient": {
+            "stops": [
+              {
+                "position": 0.0,
+                "rgb": 527142
+              },
+              {
+                "position": 0.16666666666666666,
+                "rgb": 3226759
+              },
+              {
+                "position": 0.3333333333333333,
+                "rgb": 8681412
+              },
+              {
+                "position": 0.5,
+                "rgb": 14734573
+              },
+              {
+                "position": 0.6666666666666666,
+                "rgb": 6997712
+              },
+              {
+                "position": 0.8333333333333334,
+                "rgb": 1330281
+              },
+              {
+                "position": 1.0,
+                "rgb": 527142
+              }
+            ],
+            "mode": "CATMULL_ROM"
+          },
+          "transfer": "SQRT",
+          "density": 0.65,
+          "scale": 128.0,
+          "offset": 0.05,
+          "power": 0.5,
+          "repeat": true,
+          "reverse": false,
+          "histogram": false,
+          "interior": 527638,
+          "transparentInterior": true
+        }
+      }
+    ],
+    "active": "a2e2c9a1-560c-4946-b5b0-d24bb1876dbe"
+  }
+}

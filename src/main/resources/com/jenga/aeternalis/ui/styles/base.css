@@ -1,0 +1,33 @@
+
+.root { -fx-background-color: -aet-bg; }
+.label { -fx-text-fill: -aet-ivory; }
+.muted { -fx-text-fill: -aet-muted; -fx-font-size: 11px; }
+.section-title { -fx-font-family: "Serif"; -fx-font-size: 17px; -fx-text-fill: -aet-gold-light; -fx-padding: 2 0 5 0; }
+.panel { -fx-background-color: -aet-panel; -fx-padding: 12; -fx-spacing: 8; }
+.separator:horizontal .line { -fx-border-color: #b58a5a55 transparent transparent transparent; -fx-border-width: 1 0 0 0; }
+.separator:vertical .line { -fx-border-color: transparent #b58a5a66 transparent transparent; -fx-border-width: 0 1 0 0; }
+.menu-bar { -fx-background-color: #f5efe3; -fx-padding: 2 10; -fx-border-color: #c39a70; -fx-border-width: 0 0 1 0; }
+.menu-bar .menu .label { -fx-text-fill: -aet-ivory; }
+.menu-bar .menu:hover,.menu-bar .menu:showing { -fx-background-color: -aet-raised; }
+.context-menu { -fx-background-color: #fffaf2; -fx-border-color: #c39a70; -fx-border-width: 1; -fx-padding: 5; }
+.menu-item .label { -fx-text-fill: -aet-ivory; }
+.menu-item:focused { -fx-background-color: #e9ddc9; }
+.menu-item:disabled .label { -fx-text-fill: #91897b; }
+.tooltip { -fx-background-color: #17262c; -fx-text-fill: #f3e8d2; -fx-border-color: #a68a59; -fx-padding: 8 11; -fx-font-size: 12px; }
+.scroll-pane { -fx-background-color: transparent; -fx-padding: 0; -fx-background-insets: 0; }
+.scroll-pane > .viewport { -fx-background-color: -aet-panel; }
+.scroll-bar { -fx-background-color: #eee5d5; -fx-pref-width: 10; -fx-pref-height: 10; -fx-padding: 2; }
+.scroll-bar .thumb { -fx-background-color: #b7a58a; -fx-background-radius: 4; }
+.scroll-bar .thumb:hover { -fx-background-color: #a95126; }
+.scroll-bar .track { -fx-background-color: transparent; }
+.scroll-bar .increment-button,.scroll-bar .decrement-button { -fx-background-color: transparent; -fx-padding: 3; }
+.scroll-bar .increment-arrow,.scroll-bar .decrement-arrow { -fx-background-color: #8c775f; -fx-padding: 2; }
+.split-pane { -fx-background-color: -aet-bg; -fx-padding: 0; }
+.split-pane-divider { -fx-padding: 0 3; -fx-background-color: #e5d7c3; -fx-border-color: #b58a5a55; -fx-border-width: 0 1; }
+.split-pane:vertical > .split-pane-divider { -fx-padding: 3 0; -fx-border-width: 1 0; }
+.list-view { -fx-background-color: -aet-field; -fx-border-color: -aet-edge; -fx-padding: 0; }
+.list-cell { -fx-background-color: -aet-field; -fx-text-fill: -aet-ivory; -fx-padding: 8 10; -fx-font-size: 11px; }
+.list-cell:filled:hover { -fx-background-color: #f0e7d7; }
+.list-cell:filled:selected { -fx-background-color: #d9e7e3; -fx-text-fill: #123743; -fx-border-color: #a95126; -fx-border-width: 0 0 0 2; }
+.history-title { -fx-text-fill: -aet-gold-light; -fx-font-size: 12px; }
+.numeric-label { -fx-font-family: "Monospaced"; -fx-font-size: 11px; }
